@@ -33,7 +33,7 @@ const LottieScrollAnimation = () => {
         const frame = self.progress * (totalFrames || 0);
         anim.goToAndStop(frame, true);
       },
-      markers: true,
+      markers: false,
     });
 
     return () => {
